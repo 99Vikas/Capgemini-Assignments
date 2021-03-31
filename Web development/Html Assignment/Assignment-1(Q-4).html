@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      p {
+        margin: 5px;
+      }
+      h4 {
+        margin: 5px;
+      }
+      .table-border {
+        margin: 5px;
+        border-top: #ccc 1px solid;
+        border-left: #ccc 1px solid;
+        border-bottom: #777 1px solid;
+        border-right: #777 1px solid;
+      }
+      .td-border {
+        border-top: #777 1px solid;
+        border-left: #777 1px solid;
+        border-bottom: #ccc 1px solid;
+        border-right: #ccc 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>This table has no border:</h4>
+    <table class="table-border">
+      <tr>
+        <td class="td-border">100</td>
+        <td class="td-border">200</td>
+        <td class="td-border">300</td>
+      </tr>
+      <tr>
+        <td class="td-border">400</td>
+        <td class="td-border">500</td>
+        <td class="td-border">600</td>
+      </tr>
+    </table>
+    <h4>And this table has no borders:</h4>
+    <table>
+      <tr>
+        <td>100</td>
+        <td>200</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>400</td>
+        <td>500</td>
+        <td>600</td>
+      </tr>
+    </table>
+  </body>
+</html>
