@@ -1,1 +1,0 @@
-please add XML file under 'src'
